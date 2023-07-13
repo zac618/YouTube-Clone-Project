@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.small {
+    font-size: 12;
+}
+
+.space {
+    display: flex;
+    margin: 5 0 15 0;
+    white-space: nowrap;
+}
+
+#Header-Container {
+    margin: 8 0 0 0 ;
+    height: 46px;
+}
+
+#Menu-Youtube {
+    justify-content: start;
+    align-items: center;
+    width: 25%;
+    background-color: 0F0F0F;
+    color: white;
+}
+
+#Search-Container {
+    background-color: 0F0F0F;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+#Right-Header-Container {
+    justify-content: end;
+    width: 25%;
+    align-items: center;
+}
+
+#Content-Container {
+    height: 100%;
+    width: 100%;
+}
+
+#Left-Drawer-Container {
+    background-color: 0F0F0F;
+    height: 100%;
+    width: 240px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+
+#Left-Drawer-Text {
+    overflow: hidden; 
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #e3e3e3;
+    margin-left: 26px;
+    flex: 1;
+    align-self: center;
+}
+
+#Left-Drawer-Icon {
+    color: white;
+    margin: 26 0 0 27
+}
+
+#Left-Drawer-Heading {
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 17px;
+    line-height: 2.5rem;
+}
+
+#Left-Drawer-Sub-Image {
+    vertical-align: vertical; 
+    margin: 15 0 0 24;
+}
+
+
+#Left-Drawer-HR {
+    margin: 17 0 0 0; 
+    height:2px; 
+    border-width: 0; 
+    color: #303030; 
+    background-color: #303030;
+}
+
+#Main-Content-Container {
+    background-color: lightcoral;
+    height: 100%;
+    width: 100%;
+}
+
+#Category-Filter {
+    background-color: lightgreen;
+    height: 56px;
+    width: 100%;
+}

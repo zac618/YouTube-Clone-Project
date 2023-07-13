@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "scripts": {
+    "build": "npx tailwindcss -i css/main.css -o public/main.css"
+  },
+  "dependencies": {
+    "css.gg": "^2.1.1"
+  }
+}

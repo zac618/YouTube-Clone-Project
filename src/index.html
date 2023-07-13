@@ -1,0 +1,158 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/main.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/2747b1b935.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body style="background-color: 0F0F0F;">
+    <div> <!--Overall Container-->
+        <div class="flex" id="Header-Container"> <!--Header Container-->
+            <div class="flex" id="Menu-Youtube"> <!--Menu Icon & YouTube-->
+                <div>
+                    <a href="#"> <!--Menu Icon-->
+                        <i class="fa-solid fa-bars fa-lg" style="color: white; margin-left: 27px; margin-right: 27px;"></i>
+                    </a>
+                </div> 
+                <div>
+                    <a href="#"> <!--Youtube Icon-->
+                        <i class="fa-brands fa-youtube fa-2xl" style="color: #FF0000;"></i>
+                        <text class="text-white">YouTube</text>
+                    </a>
+                </div> 
+            </div>
+
+            <div class="flex" id="Search-Container"> <!--Search Bar Container-->
+                <div class="flex"> <!--Search Bar-->
+                    <input placeholder="Search" style="color: white; border-radius: 40px 0 0 40px; border-color: 303030; border-width: 1px;  flex-basis: 1e-9; width: 540px; height: 42px; padding: 16px; background-color: transparent;"> 
+                    </input> 
+                    <!--Search Button-->
+                        <button id="Search-Button" class="fa-solid fa-magnifying-glass fa-md" style="color: white; border-radius: 0 40px 40px 0; background-color: 303030; width: 65px"></button>
+                </div>
+                <div>
+                </div> 
+                <div class="fa-stack" style="vertical-align: vertical; margin-left: 4px"> <!--Microphone Icon-->
+                    <i class="fa-solid fa-circle fa-stack-2x" style="color: 181818;"></i>
+                    <a href="#" class="fa-solid fa-microphone fa-stack-1x" style="color: white;"></a>
+                </div> 
+            </div>
+
+            <div class="flex" id="Right-Header-Container"> <!--Profile Section Container-->
+                <div><!--Add Video Button-->
+                    <i class="fa-solid fa-video fa-lg" style="color: white; margin: 0 30 0 0;"></i>
+                </div> 
+                <div> <!--Notification Button-->
+                    <i class="fa-regular fa-bell fa-lg" style="color: white; margin: 0 30 0 0"></i>
+                </div> 
+                <div class="fa-stack" style="vertical-align: vertical; margin: 0 42 0 0;"> <!--User Profile Image-->
+                    <a class="fa-regular fa-circle fa-stack-2x" style="color: white;"></a>
+                    <a href="#" class="fa-regular fa-user fa-stack-1x" style="color: white;"></a>
+                </div> 
+            </div>
+        </div>
+
+        <div class="flex" id="Content-Container">
+            <div class="flex-col" id="Left-Drawer-Container"> <!--Left Drawer Container-->
+                <div> <!--Settings Buttons-->
+                    <div> <!--Home Button-->
+                        <i class="fa-solid fa-house fa-md" style="color: white; margin: 32 0 0 27"></i>
+                        <text id="Left-Drawer-Text">Home</text>
+                    </div> 
+                    <div> <!--Shorts Button-->
+                        <i class="fa-brands fa-squarespace fa-lg" id="Left-Drawer-Icon"></i>
+                        <text id="Left-Drawer-Text">Shorts</text>
+                    </div>
+                    <div> <!--Subscriptions Button-->
+                        <i class="fa-solid fa-clapperboard fa-lg" id="Left-Drawer-Icon"></i>
+                        <text id="Left-Drawer-Text">Subscriptions</text>
+                    </div>
+                    <hr id="Left-Drawer-HR">
+                    <div> <!--Library Button-->
+                        <i class="fa-solid fa-house fa-md" id="Left-Drawer-Icon"></i>
+                        <text id="Left-Drawer-Text">Library</text>
+                    </div> 
+                    <div> <!--History Button-->
+                        <i class="fa-brands fa-squarespace fa-lg" id="Left-Drawer-Icon"></i>
+                        <text id="Left-Drawer-Text">History</text>
+                    </div>
+                    <div> <!--Your Videos Button-->
+                        <i class="fa-solid fa-clapperboard fa-lg" id="Left-Drawer-Icon"></i>
+                        <text id="Left-Drawer-Text">Your Videos</text>
+                    </div>
+                    <div> <!--Watch Later Button-->
+                        <i class="fa-solid fa-house fa-md" id="Left-Drawer-Icon"></i>
+                        <text id="Left-Drawer-Text">Watch Later</text>
+                    </div> 
+                    <div> <!--Liked Videos Button-->
+                        <i class="fa-brands fa-squarespace fa-lg" id="Left-Drawer-Icon"></i>
+                        <text id="Left-Drawer-Text">Liked Videos</text>
+                    </div>
+                    <div> <!--Playlist Button-->
+                        <i class="fa-solid fa-clapperboard fa-lg" id="Left-Drawer-Icon"></i>
+                        <text id="Left-Drawer-Text">Playlist</text>
+                    </div>
+                <hr id="Left-Drawer-HR">
+                </div>
+                <div> <!--Channel Subscriptions List-->
+                    <h1 id="Left-Drawer-Heading" style="color: white; padding: 10 12 0 20;">Subscriptions</h1>
+                    <div class="space"> <!--Subscription Channel-->
+                        <div class="fa-stack small" style="vertical-align: vertical; margin: 0 0 0 24;"> <!--User Profile Image-->
+                            <a class="fa-regular fa-circle fa-stack-2x" style="color: white;"></a>
+                            <a href="#" class="fa-regular fa-user fa-stack-1x" style="color: white;"></a>                            
+                        </div>
+                        <text style="text-overflow: ellipsis; " id="Left-Drawer-Text">Channel Name</text>
+                    </div>
+                    <div class="space"> <!--Subscription Channel-->
+                        <div class="fa-stack small space" style="vertical-align: vertical; margin: 0 0 0 24;"> <!--User Profile Image-->
+                            <a class="fa-regular fa-circle fa-stack-2x" style="color: white;"></a>
+                            <a href="#" class="fa-regular fa-user fa-stack-1x" style="color: white;"></a>                            
+                        </div>
+                        <text id="Left-Drawer-Text">Channel Name longer here</text>
+                    </div>
+                    <div class="space"> <!--Subscription Channel-->
+                        <div class="fa-stack small" style="vertical-align: vertical; margin: 0 0 0 24;"> <!--User Profile Image-->
+                            <a class="fa-regular fa-circle fa-stack-2x" style="color: white;"></a>
+                            <a href="#" class="fa-regular fa-user fa-stack-1x" style="color: white;"></a>                            
+                        </div>
+                        <text id="Left-Drawer-Text">Channel Name</text>
+                    </div>
+                    <div class="space"> <!--Subscription Channel-->
+                        <div class="fa-stack small" style="vertical-align: vertical; margin: 0 0 0 24;"> <!--User Profile Image-->
+                            <a class="fa-regular fa-circle fa-stack-2x" style="color: white;"></a>
+                            <a href="#" class="fa-regular fa-user fa-stack-1x" style="color: white;"></a>                            
+                        </div>
+                        <text id="Left-Drawer-Text">Long Channel Name</text>
+                    </div>
+                    <div class="space"> <!--Subscription Channel-->
+                        <div class="fa-stack small" style="vertical-align: vertical; margin: 0 0 0 24;"> <!--User Profile Image-->
+                            <a class="fa-regular fa-circle fa-stack-2x" style="color: white;"></a>
+                            <a href="#" class="fa-regular fa-user fa-stack-1x" style="color: white;"></a>                            
+                        </div>
+                        <text id="Left-Drawer-Text">Channel Name</text>
+                    </div>
+                    <div class="space"> <!--Subscription Channel-->
+                        <div class="fa-stack small" style="vertical-align: vertical; margin: 0 0 0 24;"> <!--User Profile Image-->
+                            <a class="fa-regular fa-circle fa-stack-2x" style="color: white;"></a>
+                            <a href="#" class="fa-regular fa-user fa-stack-1x" style="color: white;"></a>                            
+                        </div>
+                        <text id="Left-Drawer-Text">Channel Name</text>
+                    </div>
+                    <div class="space"> <!--Subscription Channel-->
+                        <div class="fa-stack small" style="vertical-align: vertical; margin: 0 0 0 24;"> <!--User Profile Image-->
+                            <a class="fa-regular fa-circle fa-stack-2x" style="color: white;"></a>
+                            <a href="#" class="fa-regular fa-user fa-stack-1x" style="color: white;"></a>                            
+                        </div>
+                        <text id="Left-Drawer-Text">Channel Name</text>
+                    </div>
+
+                </div>
+            </div> 
+            <div class="flex" id="Main-Content-Container">
+                <div class="flex" id="Category-Filter"></div> <!--Category Filter Container-->
+            </div> <!--Main Content Container-->
+        </div>
+    </div>
+</body>
+</html>
