@@ -91,12 +91,6 @@
     background-color: #303030;
 }
 
-#Main-Content-Container {
-    background-color: lightcoral;
-    height: 100%;
-    width: 100%;
-}
-
 #Category-Filter {
     background-color: 0F0F0F;
     height: 56px;
@@ -120,6 +114,8 @@
     background-color: rgba(255, 255, 255, 0.1);
     height: 32px;
     width: auto;
+    font-size: 1rem;
+    font-weight: 300;
     box-sizing: border-box;
     min-width: 12px;
     box-sizing: border-box;
@@ -127,7 +123,53 @@
     padding-right: 5px;
     margin-left: 12px;
     border-radius: 8px;
-    justify-content: center;
     align-items: center;
     color: white;
 }
+
+#right-arrow {
+    justify-content: end;
+    margin-left: 120px;
+    color: white;
+}
+
+#Main-Content-Container {
+    background-color: lightcoral;
+    height: 100%;
+    width: 100%;
+}
+
+#Video-Grid {
+    background-color: #0f0f0f;
+    width: 100%;
+    padding: 0 32px 0 32px;
+}
+
+#Video-Thumbnail-Container {
+    width: 50%;
+    height: 325px;
+    margin: 8px;
+}
+
+#Video-Thumbnail {
+    margin-top: 25px;
+    height: 220px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+#Thumbnail-Heading {
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 17px;
+    color: white;
+    margin: 0 0 0 0;
+    font-weight: 200;
+}
+
+#Thumbnail-Description {
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 13px;
+    color: #A8A8A8;
+    font-weight: 100;
+}
+
