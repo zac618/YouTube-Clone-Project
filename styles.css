@@ -20,6 +20,7 @@
 #Header-Container {
     margin: 8 0 0 0 ;
     height: 46px;
+    min-width: 1900px;
 }
 
 #Menu-Youtube {
@@ -192,5 +193,8 @@
 @media(max-width: 1475px) {
     #Video-Thumbnail-Container {
         flex: 50%;
+    }
+    #Search-Container {
+        width: 50%;
     }
 }
