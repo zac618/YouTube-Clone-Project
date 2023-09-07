@@ -17,12 +17,12 @@
     white-space: nowrap;
 }
 
-#Header-Container {
+.Header-Container {
     margin: 8 0 0 0 ;
     height: 46px;
 }
 
-#Menu-Youtube {
+.Menu-Youtube {
     justify-content: start;
     align-items: center;
     width: 25%;
@@ -30,25 +30,25 @@
     color: white;
 }
 
-#Search-Container {
+.Search-Container {
     background-color: 0F0F0F;
     align-items: center;
     justify-content: center;
     width: 50%;
 }
 
-#Right-Header-Container {
+.Right-Header-Container {
     justify-content: end;
     width: 25%;
     align-items: center;
 }
 
-#Content-Container {
+.Content-Container {
     height: 100%;
     width: 100%;
 }
 
-#Left-Drawer-Container {
+.Left-Drawer-Container {
     background-color: 0F0F0F;
     height: 100%;
     width: 240px;
@@ -57,7 +57,7 @@
     text-overflow: ellipsis;
     }
 
-#Left-Drawer-Text {
+.Left-Drawer-Text {
     overflow: hidden; 
     white-space: nowrap;
     text-overflow: ellipsis; 
@@ -71,24 +71,24 @@
     align-self: center;
 }
 
-#Left-Drawer-Icon {
+.Left-Drawer-Icon {
     color: white;
     margin: 26 0 0 27
 }
 
-#Left-Drawer-Heading {
+.Left-Drawer-Heading {
     font-family: "Roboto","Arial",sans-serif;
     font-size: 17px;
     line-height: 2.5rem;
 }
 
-#Left-Drawer-Sub-Image {
+.Left-Drawer-Sub-Image {
     vertical-align: vertical; 
     margin: 15 0 0 24;
 }
 
 
-#Left-Drawer-HR {
+.Left-Drawer-HR {
     margin: 17 0 0 0; 
     height:2px; 
     border-width: 0; 
@@ -96,7 +96,7 @@
     background-color: #303030;
 }
 
-#Category-Filter {
+.Category-Filter {
     background-color: 0F0F0F;
     height: 56px;
     width: 100%;
@@ -108,12 +108,12 @@
     overflow-x: scroll;
 }
 
-#Category-Filter::-webkit-scrollbar {
+.Category-Filter::-webkit-scrollbar {
     display: none;
 }
 
 
-#Category-First-Item {
+.Category-First-Item {
     background-color: #f1f1f1;
     color: #0f0f0f;
     height: 32px;
@@ -125,7 +125,7 @@
     align-items: center;
 }
 
-#Category-Item {  
+.Category-Item {  
     background-color: rgba(255, 255, 255, 0.1);
     height: 32px;
     font-size: 1rem;
@@ -139,34 +139,34 @@
     color: white;
 }
 
-#Category-Item:hover {
+.Category-Item:hover {
     background-color: #4a4a4a;
 }
 
-#right-arrow {
+.right-arrow {
     justify-content: end;
     margin-left: 120px;
     color: white;
 }
 
-#Main-Content-Container {
+.Main-Content-Container {
     background-color: lightcoral;
     height: 100%;
     width: 100%;
 }
 
-#Video-Grid {
+.Video-Grid {
     background-color: #0f0f0f;
     display: flex;
   flex-wrap: wrap;
 }
 
-#Video-Thumbnail-Container {
+.Video-Thumbnail-Container {
     flex: 25%;
     height: 345px;
     }
 
-#Video-Thumbnail {
+.Video-Thumbnail {
     margin-top: 25px;
     height: auto;
     width: 100%;
@@ -174,7 +174,7 @@
     aspect-ratio: 1/0.5;
 }
 
-#Thumbnail-Heading {
+.Thumbnail-Heading {
     font-family: "Roboto","Arial",sans-serif;
     font-size: 17px;
     color: white;
@@ -182,7 +182,7 @@
     font-weight: 200;
 }
 
-#Thumbnail-Description {
+.Thumbnail-Description {
     font-family: "Roboto","Arial",sans-serif;
     font-size: 13px;
     color: #A8A8A8;
@@ -190,10 +190,10 @@
 }
 
 @media(max-width: 1475px) {
-    #Video-Thumbnail-Container {
+    .Video-Thumbnail-Container {
         flex: 50%;
     }
-    #Search-Container {
+    .Search-Container {
         width: 50%;
     }
 }
